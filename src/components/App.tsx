@@ -1,28 +1,24 @@
 import React from 'react';
+import { Header } from './Header';
+import { Links } from './Links';
+import { Projects } from './Projects';
 
-type Props = {
-  message: string;
-} & typeof defaultProps;
-
-const defaultProps = {
-  message: 'Hello World!',
-};
-
-export const App = (props: Props): JSX.Element => {
+export const App = (): JSX.Element => {
   return (
     <div
       style={{
         width: '100vw',
         height: '100vh',
-        display: 'grid',
-        justifyContent: 'center',
-        alignItems: 'center',
+        color: 'white',
+        fontFamily: 'Verdana, sans-serif',
+        overflowY: 'auto',
+        display: 'flex',
+        flexDirection: 'column',
       }}
     >
-      <h1>
-        { props.message }
-      </h1>
+      <Header />
+      <Links />
+      <Projects />
     </div>
   );
 }
-App.defaultProps = defaultProps;

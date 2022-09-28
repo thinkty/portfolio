@@ -1,13 +1,13 @@
 {
-  "name": "rollup-template",
+  "name": "portfolio",
   "version": "0.0.1",
   "author": "Tae Yoon Kim",
   "license": "MIT",
-  "description": "My version of CRA with TypeScript & Rollup",
-  "homepage": "https://github.com/thinkty/rollup-template",
+  "description": "A simple website to showcase my projects",
+  "homepage": "https://github.com/thinkty/portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinkty/rollup-template.git"
+    "url": "https://github.com/thinkty/portfolio.git"
   },
   "scripts": {
     "build": "rimraf public && rollup -c",
