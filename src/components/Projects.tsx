@@ -25,9 +25,20 @@ export function Projects() {
   return (
     <div className="projects">
       <Tag id="featured" name="Featured Projects" />
-      <div className="featured">
+      <div className="project-container">
         {
           data.filter((item) => (item.stat == STAT.featured)).map((item) => (
+            <Project
+              key={item.repo}
+              {...item}
+            />
+          ))
+        }
+      </div>
+      <Tag id="wip" name="Work-In-Progress" />
+      <div className="project-container">
+        {
+          data.filter((item) => (item.stat == STAT.wip)).map((item) => (
             <Project
               key={item.repo}
               {...item}

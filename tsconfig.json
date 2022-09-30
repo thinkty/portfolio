@@ -98,7 +98,8 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./declaration.d.ts"
   ],
   "exclude": [
     "node_modules",

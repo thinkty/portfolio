@@ -3,7 +3,7 @@ import { GithubIcon, HomeIcon, LinkedInIcon } from './Icons';
 
 export function Links() {
   return (
-    <div className="links"
+    <div className="social"
       style={{
         padding: "1rem",
         display: "flex",
