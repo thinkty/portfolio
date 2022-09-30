@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Dialogflow Editor",
+    "description": "Dialogflow Editor is an interactive graph editor intended for managing the flow of agents using the Dialogflow NLP API.",
+    "repo": "https://github.com/thinkty/dialogflow-editor",
+    "demo": "https://editor.thinkty.net/",
+    "img": ["dialogfloweditor/1.png", "dialogfloweditor/2.png", "dialogfloweditor/3.png"]
+  }
+]
