@@ -5,17 +5,7 @@ import { Projects } from './Projects';
 
 export const App = (): JSX.Element => {
   return (
-    <div
-      style={{
-        width: '100vw',
-        height: '100vh',
-        color: 'white',
-        fontFamily: 'Verdana, sans-serif',
-        overflowY: 'auto',
-        display: 'flex',
-        flexDirection: 'column',
-      }}
-    >
+    <div className="app">
       <Header />
       <Links />
       <Projects />
