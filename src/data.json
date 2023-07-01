@@ -1,10 +1,19 @@
 [
   {
+    "name": "D-OTA",
+    "desc": "Implementation of the delta (differential) over-the-air device firmware update on the ESP8266 board running the ESP8266 RTOS SDK. Delta OTA update is different from a normal OTA update in a way that it receives only the differential of the previous firmware and the new firmware. Therefore, the resulting transactions have relatively low overhead compared to the normal OTA update that sends the entire firmware image.",
+    "stat": 1,
+    "repo": "https://github.com/thinkty/D-OTA",
+    "post": "https://thinkty.net/projects/2023/05/07/delta_ota.html",
+    "demo": "https://www.youtube.com/watch?v=OVTAAwbDiMg",
+    "img": ["dota/1.png", "dota/2.png"]
+  },
+  {
     "name": "Dialogflow Editor",
     "desc": "Dialogflow Editor is an interactive graph editor intended for managing the flow of agents using the Dialogflow NLP API. Before Dialogflow CX came out, there was only Dialogflow ES and it was extremely hard to manage the flow of the agent (chatbot) as it did not have a graph editor. This graph editor was intended to fill in the gap, but Dialogflow CX got released about a week after.",
     "stat": 1,
     "repo": "https://github.com/thinkty/dialogflow-editor",
-    "post": "https://thinkty.net/projects/dialogflow-editor/",
+    "post": "https://thinkty.net/projects/2020/08/29/dialogflow-editor.html",
     "demo": "https://editor.thinkty.net/",
     "img": ["dialogfloweditor/1.png", "dialogfloweditor/2.png", "dialogfloweditor/3.png"]
   },
@@ -13,7 +22,7 @@
     "desc": "Sosizi is a React SPA that I made during my millitary service to help me and my buddies. Our job was to deliver news every month and before using this app, we had to manually keep track of which delivery points have been made and remember the route which only occurs once a month. I found it quite inefficient and it was such a pain to teach the next person in the handover process. This app just removed that handover process and also has detailed pictures to show exactly where to place the packages.",
     "stat": 1,
     "repo": "https://github.com/thinkty/sosizi",
-    "post": "https://thinkty.net/projects/sosizi/",
+    "post": "https://thinkty.net/projects/2022/02/20/sosizi.html",
     "demo": "https://sosizi.thinkty.net/",
     "img": ["sosizi/1.png", "sosizi/2.jpeg", "sosizi/3.jpeg"]
   },

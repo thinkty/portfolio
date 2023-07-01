@@ -21,17 +21,21 @@ export function HomeIcon() {
   return (
     <svg
       role="img"
+      width={"100%"}
+      height={"100%"}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       className="icon"
     >
       <title>Homepage</title>
+
       <circle
         className="content"
         cx={12}
         cy={12}
-        r={11}
+        r={12}
       />
+      <path xmlns="http://www.w3.org/2000/svg" d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM13.4142 13.4143L15.5356 8.46451L10.5858 10.5858L8.46448 15.5356L13.4142 13.4143Z" fill="#0D0D0D"></path>
     </svg>
   );
 }
